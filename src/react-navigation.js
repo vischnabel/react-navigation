@@ -116,6 +116,9 @@ module.exports = {
   get createMaterialTopTabNavigator() {
     return require('react-navigation-tabs').createMaterialTopTabNavigator;
   },
+  get createMaterialBottomTabNavigator() {
+    return require('react-navigation-tabs').createMaterialBottomTabNavigator;
+  },
 
   get createDrawerNavigator() {
     return require('react-navigation-drawer').createDrawerNavigator;
@@ -178,5 +181,8 @@ module.exports = {
   },
   get MaterialTopTabBar() {
     return require('react-navigation-tabs').MaterialTopTabBar;
+  },
+  get MaterialBottomTabBar() {
+    return require('react-navigation-tabs').MaterialBottomTabBar;
   },
 };
